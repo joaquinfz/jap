@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+   <meta charset="utf-8">
+   <title>GameStore|Inicio</title>
+  
+
+ </head>
+
+
+<body>
+        <nav>
+                <a href="Inicio.html">Página Principal</a>
+                <a href="Iniciosesion.html">Iniciar Sesión</a>
+                <a href="Catalogo.html">Catálogo</a>
+        </nav>
+
+
+
+<form method="post">
+
+
+
+        <h1>Comprar Juego</h1>
+        
+            <p>
+              <label for="name">
+                <span>Nombre: </span>
+                
+              </label>
+              <input type="text" id="name" name="username">
+            </p>
+            <p>
+              <label for="mail">
+                <span>E-mail: </span>
+                
+              </label>
+              <input type="email" id="mail" name="usermail">
+            </p>
+            <p>
+              <label for="pwd">
+                <span>Contraseña: </span>
+                
+              </label>
+              <input type="password" id="pwd" name="password">
+            </p>
+        </section>
+        <section>
+            <h2>Método de Pago</h2>
+            <p>
+              <label for="card">
+                <span>Tarjeta:</span>
+              </label>
+              <select id="card" name="usercard">
+                <option value="visa">Visa</option>
+                <option value="mc">Mastercard</option>
+                <option value="amex">American Express</option>
+              </select>
+            </p>
+            <p>
+              <label for="number">
+                <span>Número de Tarjeta:</span>
+                
+              </label>
+                <input type="text" id="number" name="cardnumber">
+            </p>
+            <p>
+              <label for="date">
+                <span>Fecha de Caducidad:</span>
+                
+            
+              </label>
+              <input type="text" id="date" name="expiration">
+            </p>
+        </section>
+        <section>
+            <p> <button type="submit">Validar el Pago   </button> </p>
+        </section>
+    </form>
+    </body>
+    </html>

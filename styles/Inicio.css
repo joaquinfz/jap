@@ -1,0 +1,26 @@
+th {
+    color:red;
+    background-color: yellow;
+}
+h1{
+    text-align: left;
+    font-family: Trebuchet MS;
+
+}
+table {
+   
+    border-spacing: 0px;
+    border: 2cm
+}
+th, tr {
+    padding: 0.9em;
+    text-align: center;
+}
+tr :nth-child(2){
+    text-align: left;
+}
+tr.clasificado {
+    background-color: aqua;
+
+}
+
